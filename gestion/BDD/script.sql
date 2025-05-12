@@ -14,7 +14,7 @@ id INT AUTO_INCREMENT PRIMARY KEY,
 nom VARCHAR(50) NOT NULL,
 solde DECIMAL(10,2) DEFAULT 0.00,
 categorie_id INT,
-FOREIGN KEY (categorie_id) REFERENCES categorie_portefeuille(id)
+FOREIGN KEY (categorie_id) REFERENCES categorieportefeuille(id)
 );
 
 -- Table des catégories de dépenses
