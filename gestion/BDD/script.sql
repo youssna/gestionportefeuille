@@ -3,7 +3,7 @@ CREATE DATABASE IF NOT EXISTS budget;
 USE budget;
 
 -- Table des catégories de portefeuilles
-CREATE TABLE categorie_portefeuille (
+CREATE TABLE categorieportefeuille (
 id INT AUTO_INCREMENT PRIMARY KEY,
 nom VARCHAR(50) NOT NULL
 );
